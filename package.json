@@ -1,0 +1,19 @@
+{
+  "name": "mycv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ddc",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^0.7.2"
+  },
+  "scripts": {
+    "init": "./node_modules/.bin/tailwind.cmd init",
+    "build": "./node_modules/.bin/tailwind.cmd build ./src/style.css -o ./src/build.css"
+  }
+}

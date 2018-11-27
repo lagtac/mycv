@@ -1,0 +1,134 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+ @tailwind preflight;
+
+ /**
+  * This injects any component classes registered by plugins.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/components";
+  */
+ @tailwind components;
+
+ /**
+  * Here you would add any of your custom component classes; stuff that you'd
+  * want loaded *before* the utilities so that the utilities could still
+  * override them.
+  *
+  * Example:
+  *
+  * .btn { ... }
+  * .form-input { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "components/buttons";
+  * @import "components/forms";
+  */
+body {
+    @apply bg-grey-lightest;
+}
+.container {
+    @apply max-w-lg bg-white opacity-75;
+}
+.name {
+    @apply  text-black text-2xl font-thin mb-1;
+}
+.title {
+    @apply  text-black text-xl font-normal;
+}
+.info {
+    @apply p-5 bg-grey-light;
+}
+    .specialties, .skills, .education, .contact {
+
+    }
+    .info-title {
+        @apply  text-base mb-1 text-grey-darker;
+    }
+    .info-list {
+        @apply list-reset pl-5 mb-3;
+        list-style-type: square;
+    }
+        .info-list-item {
+            @apply  text-sm leading-normal;
+        }
+
+.main {
+        @apply p-5;
+}
+
+.profile {
+
+}
+    .profile-paragraph {
+        @apply  mb-1 text-sm;
+    }
+
+.experience {
+
+}
+    .experience-title {
+        @apply  p-2 mb-3 text-white bg-black text-base w-1/2 float-right;
+    }
+    .position {
+        @apply mb-3;
+    }
+        .position-title {
+            @apply  text-base text-purple-darkest;
+        }
+        .position-org {
+            @apply  text-base mb-1 text-purple-darkest;
+        }
+        .position-paragraph {
+            @apply  text-sm mb-1;
+        }
+        .area {
+
+        }
+            .area-title {
+                @apply  text-sm;
+            }
+            .area-list {
+                @apply list-reset pl-5 mb-3;
+                list-style-type: square;
+            }
+            .area-list-item {
+                @apply  text-sm;
+            }
+
+
+ /**
+  * This injects all of Tailwind's utility classes, generated based on your
+  * config file.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/utilities";
+  */
+ @tailwind utilities;
+
+ /**
+  * Here you would add any custom utilities you need that don't come out of the
+  * box with Tailwind.
+  *
+  * Example :
+  *
+  * .bg-pattern-graph-paper { ... }
+  * .skew-45 { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "utilities/background-patterns";
+  * @import "utilities/skew-transforms";
+  */
