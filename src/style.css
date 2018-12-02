@@ -35,18 +35,14 @@
   * @import "components/buttons";
   * @import "components/forms";
   */
-body {
-
-}
-
-.a4 {
-    width: 21cm;
-    min-height: 29.7cm;
-    height: 29.7cm;
-  }
+body {}
 
 .container {
     @apply max-w-lg;
+}
+
+header .container {
+    @apply p-5;
 }
 
 .name {
@@ -92,9 +88,7 @@ body {
 
 .experience {}
 
-.experience-title {
-
-}
+.experience-title {}
 
 .position {
     @apply mb-3;
@@ -128,31 +122,43 @@ body {
 }
 
 @media print {
-    header {
-        display: block;
-        height: 2.5cm;
+    @page {
+        size: A4;
+        margin: 0;
     }
 
-    .print-container {
+    .a4 {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+    }
+
+    header .container {
+        display: block;
+        height: 30mm;
+
+    }
+
+    .table-container {
         display: table !important;
-        height: 26.7cm;
+        height: 266mm;
+        /* height: calc(297mm - 30mm - 1mm); */
     }
 
     .cv-body {
         display: table-row !important;
+        height: 100%;
     }
 
     .info {
         display: table-cell !important;
         overflow: hidden;
+        height: inherit;
     }
 
     .main {
         display: table-cell !important;
-    }
-
-    @page {
-        margin: 0;
+        height: inherit;
     }
 }
 
