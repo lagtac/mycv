@@ -41,10 +41,6 @@ body {}
     @apply max-w-lg;
 }
 
-header .container {
-    @apply p-5;
-}
-
 .name {
     @apply text-white text-2xl font-thin mb-1;
 }
