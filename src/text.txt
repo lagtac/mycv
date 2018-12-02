@@ -1,0 +1,38 @@
+Υλοποίηση και διαχείριση πολυγλωσσικών εταιρικών websites και intranet, σε περιβάλλον πολυεθνικού Global Marketing. Σχεδιασμός περιεχομένου με κριτήρια χρηστικότητας και ανάδειξης υπηρεσιών. Βαθιά κατανόηση επιχειρηματικών απαιτήσεων, προφίλ χρηστών και κανονιστικού περιβάλλοντος (GDPR) . Σχεδιασμός και υλοποίηση πολλαπλών λύσεων για πελάτες και εσωτερικά έργα. Υποστήριξη δραστηριοτήτων εταιρικού μάρκετινγκ.
+
+Implementation and administration of multilingual corporate websites and intraneta, in a Global Marketing context. Content development for business services in a well defined information architecture. Understanding business requirements, user profiles and regulatory environment (GDPR). Design and development of client facing and internal web solutions. Corporate Marketing support.
+
+Web Content Management
+
+    Implementation of Global Content Strategy for the Greece firm.
+    Development of digital content in line with corporate brand and vision.
+    Management of assets, content and metadata in Adobe Experience Manager (AEM) platform.
+
+Intranet Content Management
+
+    Migration of content and assets to Sharepoint 2013.
+    Coordinating business units for the creation of new content.
+    Implementing new Information Architecture for optimal business support.
+    Implementation of new environment: pages, lists and permissions.
+    Ongoing Content management and staff training.
+
+Web Development
+
+    Design and development of www.kpmgevents.gr. Umbraco CMS, C#, Javascript (2017).
+    Design and development of www.cpalaw.gr.  Umbraco CMS, C#, Javascript (2017).
+    Design and development web front-end for FORTUNE  Most Admired Companies (2015-2017) survey. UIKit, JQuery.
+    Design and development web front-end for survey creation and management application (2013). ASP.NET WebForms.
+    Part of team that developed www.justjos.gr. ASP.Net (2011).
+
+Web Developer – Analyst, 06.2004 – 11.2009
+EPIS Ltd., Ελλάδα
+
+Development of medium scale products for individual clients.
+Design and development of digital archive for the Greek National Opera
+
+    Digitization of cultural artifacts
+    Implementation of relational batabase based on complex schema. SQL Server 2000.
+    Design and implement web interface for data management. ASP, VBScript, Javascript.
+    Design and implement web interface for exploring and searching data (PHP).
+
+Develop tools for internal support.C#, SQL Server, MS Office SDK.
