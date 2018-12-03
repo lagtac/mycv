@@ -60,7 +60,7 @@ body {}
 .contact {}
 
 .info-title {
-    @apply text-base mb-1 text-grey-darker;
+    @apply text-base mb-0 text-grey-darker;
 }
 
 .info-list {
