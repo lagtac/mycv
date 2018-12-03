@@ -95,7 +95,7 @@ body {}
 }
 
 .position-org {
-    @apply text-base mb-1 text-purple-darkest;
+    @apply text-base mb-0 text-purple-darkest;
 }
 
 .position-paragraph {
